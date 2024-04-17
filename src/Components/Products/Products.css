@@ -1,0 +1,16 @@
+.card_body {
+  display: grid;
+  grid-template-columns: 29% 29% 29%;
+  gap: 3.5rem;
+}
+@media screen and (max-width: 1040px) {
+  .card__body {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card__body {
+    grid-template-columns: 1fr;
+  }
+}

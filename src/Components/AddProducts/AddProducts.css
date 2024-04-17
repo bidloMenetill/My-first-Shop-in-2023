@@ -1,0 +1,103 @@
+.addProductsUl {
+  position: relative;
+  height: 100%;
+  display: flex;
+  gap: 34px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+h2 {
+  margin: 0 auto;
+  color: darkcyan;
+  border: 1px solid var(--color-primary);
+  padding: 1rem;
+}
+.add-products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+}
+.card_add {
+  position: relative;
+  border: 1px solid var(--softer-color);
+  box-shadow: 1px 1px 5px var(--softer-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.added-product {
+  flex: 0 0 29%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  margin: 8px;
+  position: relative;
+}
+
+.added-product span {
+  margin-right: 8px;
+}
+
+.remove-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 14px;
+}
+
+.remove-button:hover {
+  background-color: darkblue;
+}
+.addedProducts {
+  display: flex;
+  justify-content: center;
+}
+.total {
+  margin: 0 auto;
+}
+.addProductsUl {
+  position: relative;
+  height: 100%;
+  display: flex;
+  gap: 34px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.card_add {
+  position: relative;
+  border: 1px solid var(--softer-color);
+  box-shadow: 1px 1px 5px var(--softer-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+}
+
+.card_add > * {
+  /* This will make all direct children of card_add take equal height */
+}
+
+.added-product {
+}
